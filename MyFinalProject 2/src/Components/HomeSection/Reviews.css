@@ -1,0 +1,209 @@
+/* Hotel Review Page CSS */
+
+/* Main container */
+
+.review-item {
+    /* other styles */
+    position: relative;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #030202;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-btn:hover {
+    background-color: #171414;
+  }
+  
+
+.review {
+    padding: 50px;
+    background-color: #b756c0;
+  }
+  
+  .review h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .review-form {
+    margin-bottom: 30px;
+  }
+  
+  .review-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .review-form label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .review-form input,
+  .review-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .review-form button {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #5e5e5e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .review-form button:hover {
+    background-color: #434343;
+  }
+  
+  .review-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .review-item {
+    flex-basis: 30%;
+    margin-right: 3.33%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .review-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .review-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .review-item p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  /* Title */
+  .review-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Review Cards */
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  
+  .review-card:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Reviewer Info */
+  .reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .reviewer-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .reviewer-date {
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  /* Review Text */
+  .review-text {
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  /* Review Rating */
+  .review-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .review-rating span {
+    color: #f8b739;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Review Actions */
+  .review-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .review-actions a {
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: bold;
+    font-size: 0.875rem;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .review-actions a:hover {
+    color: #212529;
+  }
+  

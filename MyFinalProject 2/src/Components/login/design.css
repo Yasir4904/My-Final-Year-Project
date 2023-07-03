@@ -1,0 +1,89 @@
+/* Main container */
+.sign-box {
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Form elements */
+.forms form div {
+  margin: 10px 0;
+}
+.forms form label {
+  display: block;
+  margin-bottom: 8px;
+}
+.forms form input[type="text"],
+.forms form input[type="email"],
+.forms form input[type="password"],
+.forms form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+.forms form input[type="text"]:focus,
+.forms form input[type="email"]:focus,
+.forms form input[type="password"]:focus,
+.forms form select:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Checkbox */
+.forms form .flex label {
+  display: flex;
+  align-items: center;
+}
+.forms form .flex input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+/* Error message */
+.forms form span {
+  display: block;
+  margin-top: 10px;
+  color: crimson;
+  font-size: 13px;
+}
+
+/* Submit button */
+.forms form button {
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #31b675;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.forms form button:hover {
+  background-color: #238d5b;
+}
+
+/* Link */
+.forms form a {
+  color: blue;
+  font-size: 13px;
+}
+
+/* Login message */
+.login-message {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center
+}
